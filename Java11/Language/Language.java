@@ -26,5 +26,8 @@ public class Language {
     // instantiating an object of the Mayan class
     Mayan protoMayan = new Mayan("Ch'olan", 25000000);
     protoMayan.getInfo();
+    // instantiating an object of the SinoTibeten class
+    SinoTibetan transHimalayan = new SinoTibetan("Chinese", 1200000000);
+    transHimalayan.getInfo();
   } 
 }
