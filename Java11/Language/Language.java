@@ -19,9 +19,12 @@ public class Language {
   }
   
   public static void main(String[] args) {
-    // instantiating an object of language
+    // instantiating an object of Language
     Language english = new Language("English", 1000000000, "world wide", "Subject + Verb + Object");
     // testing the getInfo method
-    english.getInfo();    
-  }
+    english.getInfo();
+    // instantiating an object of the Mayan class
+    Mayan protoMayan = new Mayan("Ch'olan", 25000000);
+    protoMayan.getInfo();
+  } 
 }
