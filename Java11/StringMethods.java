@@ -2,9 +2,9 @@
 public class StringMethods {
   public static void main(String[] args) {
   	String post1 = "My studies have been going great and I'm really proud of myself.";
-  	String post2 = " I can't wait to show my skills.";
+  	String post2 = "I can't wait to show my skills.";
   	// checking the length of a string
-  	System.out.println(post1);
+  	System.out.println(post1.length());
   	// join strings together
   	post1.concat(post2);
   	// check if the strings are equal

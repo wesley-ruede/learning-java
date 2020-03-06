@@ -9,6 +9,15 @@ public class OOPandObjects{
 		duckBeak = beak;
 	}
 
+	public OOPandObjects(){
+	}
+
+	private void changeDuckWings() {
+		/*
+		future method
+		*/
+	}
+
 	public static void main(String[] args) {
 		OOPandObjects Duck = new OOPandObjects("Ducks have two feet", 2, 1);
 		System.out.println(Duck.duckFoot);

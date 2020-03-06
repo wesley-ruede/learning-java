@@ -1,7 +1,5 @@
-// Define your tree class in this file!
 public class Tree {
   public static void main(String[] args) {
-    // a method to introduce myself
     System.out.println("Hey I'm Wes and I love coding!");
     System.out.println("I'm gonna plant a tree today");
     System.out.println("   *   ");

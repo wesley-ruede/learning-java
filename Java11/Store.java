@@ -9,14 +9,11 @@ public class Store {
     price = initialPrice;
   }
   
-  // increase price method
   public void increasePrice(double priceToAdd){
-    // altering the price attribute of the Store class
     double newPrice = price + priceToAdd;
     price = newPrice;
   }
   
-  // get price with tax method
   public double getPriceWithTax(){
     double tax = 0.08;
     double totalPrice = price + price*tax;
@@ -24,16 +21,14 @@ public class Store {
   }
   
   public String toString(){
-    // creating a string representation of an object in memory
+    // String representation of the Store class
     return "This store sells " +productType+ " at a price of " +price+".";
   }
 
-  // main method
   public static void main(String[] args) {
-    // instantiating an object
     Store lemonadeStand = new Store("Lemonade", 3.75);
     Store cookieShop = new Store("Cookie", 5);
-    // getting a string representation of the objects
+    /* Use case */
     System.out.println(lemonadeStand);
     System.out.println(cookieShop);
     // calling the increasePrice method on the lemonadeStand object

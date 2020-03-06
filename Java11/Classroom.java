@@ -1,4 +1,3 @@
-// working with arrays review
 import java.util.Arrays;
 
 public class Classroom {
@@ -9,7 +8,6 @@ public class Classroom {
     // creating a new empty array
     double[] mathScores = new double[4];
     // setting values in respect to the students 
-    // Sade
     mathScores[0] = 94.5;
     // Sam
     mathScores[2] = 76.8;

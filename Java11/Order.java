@@ -43,7 +43,6 @@ public class Order {
  	}
   
   public static void main(String[] args) {
-    // create instances and call methods here!
     Order ship1 = new Order(true, 50.00, "Express");
     System.out.println(ship1); 
     System.out.println(ship1.calculateShipping());
